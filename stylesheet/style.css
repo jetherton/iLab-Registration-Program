@@ -1,55 +1,29 @@
 body
-		{ background-color:#000000;
+		{ 
 		
 			
 		}
 		
 #page
-		{ margin:0 auto; 
-			width:960px;
-			height:700px;
-			border-width:1px; 
-			background-color:green; 
-			position:relative;
-			
+		{ 
+
+
 			}
 #header
 		{
-			width:960px;
-			height:120px;
-			background-color:#DEB887;
-			color:blue;
+			
+			
+		}
+		
+#main
+
+		{
 			
 			
 		}
 
-#left
-		{
-			width:15%;
-			height:500px;
-			background-color:#DEB887;
-			position:relative;
-			float:left;
-			color:blue;
-		}
-#right
-		{
-			width:85%;
-			height:500px;
-			background-color:gray;
-			float:right;
-			text-align:justify;
-			color:white;
-			
-			}
+
 #footer
 		{
-			width:960px;
-			height:55px;
-			background-color:#000080;
-			float:right;
-			color:white;
-			text-align:center;
-			font-weight:bold;
-			font-style:italic;
+			
 		}

@@ -7,7 +7,7 @@
 	<body>
 	
 	<div id="page">
-	
+		<?php echo "You typed ". $_POST["firstname"] . " as your first name"; ?>
 		<div id="head">
 		<h1> iLab Registration Form</h1>
 		<h3>Welcome to iLab online registration page</h3>
@@ -17,13 +17,13 @@
 										</div>
 		
 		<div id="main">
-				<form method="post">
+				<form method="post" action="index.php">
 				
 				First name: <input type="text" name="firstname" />
 				Last name: <input type="text" name="lastname" />
 				
 			<br /><br />
-				Organization: <input type="text" name="firstname" />
+				Organization: <input type="text" name="organization" />
 				
 				<p>
 				
@@ -49,8 +49,6 @@
 					<option value="iLab">iLab Event</option>
 				</select>
 				
-				</form>
-				<p>
 				How familiar are you with a computer: 
 				<select name="Select Training">
 					<option value="Ushahidi">I work with computer very well</option>
@@ -58,6 +56,11 @@
 					<option value="iLab">I am a fair computer user</option>
 					<option value="iLab">I have not work with computer before</option>
 				</select>
+				
+				<input type="submit" value="Submit" />
+				</form>
+				<p>
+				
 				
 				
 				
@@ -70,7 +73,7 @@
 										</div>
 			<div id="footer">
 			
-			<input type="submit" value="Submit" />
+			
 	
 				<p>This Form was created and publish by |*iLab_ Liberia| </p>
 	

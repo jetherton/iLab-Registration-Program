@@ -14,14 +14,10 @@
 		<p>
 		<h4>Please fill in the below form</h4>
 		
-		
-		
-		
-		
 										</div>
 		
 		<div id="main">
-				<form>
+				<form method="post">
 				
 				First name: <input type="text" name="firstname" />
 				Last name: <input type="text" name="lastname" />

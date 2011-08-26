@@ -5,7 +5,10 @@
 </head>
 <body>
 <div id="page">
-<p>Thank you</p>
+<p>Thank you <?php echo $_GET["fname"]." ".$_GET["lname"];
+
+?></p>
+
 </div>
 </body>
 </html>

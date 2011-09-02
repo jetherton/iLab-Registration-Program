@@ -7,9 +7,23 @@
 	<body>
 	
 	<div id="page">
-		<?php echo "You typed ". $_POST["firstname"] . " as your first name"; ?>
+		<?php 
+		
+		$us_en = array("is_your_name"=>"as your name",
+			"title"=>"iLab Registration Form");
+		$lr_en = array("is_your_name"=>"da yor nin",
+			"title"=>"iLab Regitration Fom");
+		$languages = array("us_en"=>$us_en, "lr_en"=>$lr_en);
+		
+		$current_language = "lr_en";
+		
+		$name = $languages[$current_language]["is_your_name"];
+		
+		echo "You typed ". $_POST["firstname"] . "  ". $_POST["lastname"] . $name; 
+		
+		?>
 		<div id="head">
-		<h1> iLab Registration Form</h1>
+		<h1> <?php echo $languages[$current_language]["title"]; ?></h1>
 		<h3>Welcome to iLab online registration page</h3>
 		<p>
 		<h4>Please fill in the below form</h4>
